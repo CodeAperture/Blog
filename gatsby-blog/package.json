@@ -34,8 +34,10 @@
     "generatePostPreviewImages": "./scripts/generatePostPreviewImages.js"
   },
   "dependencies": {
+    "@babel/core": "^7.14.6",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
+    "babel-eslint": "^10.1.0",
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^3.7.2",
     "gatsby-image": "^3.7.1",
@@ -56,11 +58,15 @@
     "gatsby-source-filesystem": "^3.7.1",
     "gatsby-transformer-remark": "^4.4.1",
     "gatsby-transformer-sharp": "^3.7.1",
+    "graphql": "^15.5.0",
+    "normalize-url": "^6.0.1",
+    "postcss": "^8.3.5",
     "prismjs": "^1.23.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "styled-components": "^5.3.0"
+    "styled-components": "^5.3.0",
+    "typescript": "^4.3.4"
   },
   "devDependencies": {
     "lighthousebot": "https://github.com/GoogleChromeLabs/lighthousebot",
