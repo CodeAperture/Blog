@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: 'Bob Walker',
   siteDescription: 'Random thoughts on CI/CD, the software industry and whatever else pops into my head.',
   authorName: 'Bob Walker',
-  twitterUsername: 'DevOpsWalker',
+  twitterUsername: '_bobjwalker_',
   authorAvatar: 'avatar.png', // file in content/images
   defaultLang: 'en',
   authorDescription: `
@@ -10,8 +10,7 @@ module.exports = {
   2:00 AM deployments involving 50 page Word documents he discovered his true passion in CI/CD.  Since his first automated deployment using Octopus Deploy and Redgate, Bob has published
   numerous blog posts, given mutliple webinars, and has had the chance to speak at conferences including HDC, KCDC, TechBash, and SQL in the City Summit.  
   `,
-  siteUrl: 'https://bobwalker.net',
-  disqusSiteUrl: 'https://bobwalker.net/',
+  siteUrl: 'https://bobjwalker.com',
   // Prefixes all links. 
   pathPrefix: '/prefix', // Note: it must *not* have a trailing slash.
   background_color: '#cccccc',
@@ -19,7 +18,6 @@ module.exports = {
   display: 'standalone',
   icon: 'content/images/baymax.png',
   postsPerPage: 6,
-  disqusShortname: 'bobjwalker',
   headerTitle: 'Bob Walker',
   headerLinksIcon: '', //  (leave empty to disable: '')
   headerLinks: [
