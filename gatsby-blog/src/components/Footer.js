@@ -7,8 +7,8 @@ const FooterWrapper = styled.footer`
   text-align: left;
   padding-top: 30px;
   padding-bottom: 50px;
-  background-color: var(--color-primary);
-  color: var(--color-white);
+  background-color: #3E4047;
+  color: #ffffff;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
@@ -29,11 +29,11 @@ const FooterWrapper = styled.footer`
   }
 
   & a {
-    color: var(--color-white);
+    color: #ffffff;
     font-weight: bold;
 
     &:hover {
-      color: var(--color-grey200);
+      color: #CFCFD1;
     }
   }
 
@@ -47,7 +47,7 @@ const FooterWrapper = styled.footer`
   }
 
   .footer-item {
-    color: var(--color-white);
+    color: #ffffff;
 
     & a {
       padding: 0.25rem 0;
@@ -56,12 +56,12 @@ const FooterWrapper = styled.footer`
   }
 
   .footer-heart {
-    color: var(--color-red);
+    color: #ff0000;
   }
 
   .footer-item-text {
     padding: 0.1rem 0;
-    color: var(--color-white);
+    color: #ffffff;
   }
 
   .footer-header {

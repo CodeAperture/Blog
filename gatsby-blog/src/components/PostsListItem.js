@@ -19,12 +19,12 @@ const ReadPost = styled(Link)`
   text-transform: uppercase;
   letter-spacing: 0.05em;
   line-height: 2;
-  color: var(--color-text);
+  color: #1C1D20;
 
   &:hover {
-    background-color: var(--color-grey600);
+    background-color: #383A40;
     border-radius: 0.25rem;
-    color: var(--color-white);
+    color: #ffffff;
   }
 `
 
@@ -38,9 +38,9 @@ const Excerpt = styled.p`
 `
 
 const PostTitleLink = styled(Link)`
-  color: var(--color-h2);
+  color: #3E4047;
   &:hover {
-    border-bottom: 1px dotted var(--color-text);
+    border-bottom: 1px dotted #1C1D20;
   }
 `
 

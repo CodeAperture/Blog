@@ -22,16 +22,16 @@ const PaginationWrapper = styled.nav`
 
 const PageBtn = styled(Link)`
   border-radius: 3px;
-  background-color: var(--color-primary);
-  border: 1px solid var(--color-primary);
-  color: var(--color-white);
+  background-color: #3E4047;
+  border: 1px solid #3E4047;
+  color: #ffffff;
   padding: 8px 20px;
   min-width: 130px;
 
   &:hover {
-    background-color: var(--color-white);
-    color: var(--color-primary);
-    border: 1px solid var(--color-primary);
+    background-color: #ffffff;
+    color: #3E4047;
+    border: 1px solid #3E4047;
   }
 
   @media (max-width: 564px) {

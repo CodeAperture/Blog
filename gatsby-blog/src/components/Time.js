@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const TimeContainer = styled.time`
-  color: var(--color-textSecondary);
+  color: #546c77;
 `
 
 const Time = props => {

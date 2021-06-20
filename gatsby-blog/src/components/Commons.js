@@ -12,8 +12,8 @@ export const GlobalStyle = createGlobalStyle`
 
 body {
   font-family: "Lato", sans-serif;
-  color: var(--color-text);
-  background-color: var(--color-siteBackground);
+  color: #1C1D20;
+  background-color: #B2B3B5;
 }
 
 img {
@@ -25,12 +25,12 @@ img {
 
 a {
   text-decoration: none;
-  color: var(--color-text);
+  color: #1C1D20;
 }
 
 hr {
   border: 0;
-  border-top: 1px solid var(--color-grey100);
+  border-top: 1px solid #ECECED;
   margin: 50px 0 5px 0;
 }
 
@@ -41,11 +41,11 @@ ol {
 }
 
 *::selection {
-  background-color: var(--color-secondary);
+  background-color: #ffdc4e;
 }
 `
 export const StyledLink = styled(Link)`
-  box-shadow: 0 2px 0 0 var(--color-secondary);
+  box-shadow: 0 2px 0 0 #ffdc4e;
 
   &:hover {
     filter: brightness(150%);
@@ -60,7 +60,7 @@ export const Text = styled.p`
 
 export const Bull = styled.span`
   display: inline-block;
-  color: var(--color-textSecondary);
+  color: #546c77;
   margin: 0 4px;
   &::before {
     content: '•';
@@ -69,7 +69,7 @@ export const Bull = styled.span`
 
 const ReadingTimeContainer = styled.span`
   text-transform: uppercase;
-  color: var(--color-textSecondary);
+  color: #546c77;
 `
 
 export const ReadingTime = props => {

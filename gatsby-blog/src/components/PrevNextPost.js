@@ -22,13 +22,13 @@ const PreviewContainer = styled.aside`
 const Preview = styled.article`
   cursor: pointer;
   flex: 1 1 300px;
-  background-color: var(--color-secondaryContentBackground);
+  background-color: #f7f7f7;
   box-shadow: 0 0 0 0, 0 6px 12px rgba(0, 0, 0, 0.1);
   margin: 20px 20px;
   border-radius: 5px;
 
   &:hover {
-    box-shadow: 0 0 0 0, 0 6px 12px var(--color-grey300);
+    box-shadow: 0 0 0 0, 0 6px 12px #383A40;
     transition: all 0.3s ease;
     transform: translate3D(0, -1px, 0);
   }

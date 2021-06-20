@@ -6,7 +6,7 @@ import { Bull } from './Commons'
 
 const Header = styled.header`
   margin-bottom: 1rem;
-  color: var(--color-textSecondary);
+  color: #546c77;
   font-size: 0.9em;
 `
 

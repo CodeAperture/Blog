@@ -10,8 +10,8 @@ const HeroContainer = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: var(--color-primary);
-  color: var(--color-white);
+  background-color: #3E4047;
+  color: #ffffff;
 `
 
 const TitleContainer = styled.div`
@@ -25,13 +25,13 @@ const HeroTitle = styled.h1`
   font-weight: 700;
   font-size: 3rem;
   margin: 10px 50px;
-  color: var(--color-white);
+  color: #ffffff;
   text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.85);
 `
 
 const HeroSubTitle = styled.h2`
   margin: 10px 50px;
-  color: var(--color-white);
+  color: #ffffff;
   text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.85);
 `
 

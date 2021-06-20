@@ -14,7 +14,7 @@ const HeaderWrapper = styled.header`
   display: block;
   width: 100%;
   z-index: 1000;
-  background-color: var(--color-primaryAlpha);
+  background-color: rgba(32, 35, 42, 0.85);
   font-weight: 700;
 
   @media ${media.medium} {
@@ -51,7 +51,7 @@ const HeaderLink = styled(Link)`
   position: relative;
   display: flex;
   align-items: center;
-  color: var(--color-white);
+  color: #ffffff;
   border: 0;
   margin: 0;
   padding: 8px 10px;
@@ -86,7 +86,7 @@ const MobilePanel = styled.div`
   height: 100vh;
   display: flex;
   align-items: center;
-  background-color: var(--color-primary);
+  background-color: #3E4047;
   @media ${media.medium} {
     display: none;
   }
@@ -98,8 +98,8 @@ const SkipMainContent = styled.a`
   width: 1px;
   height: 1px;
   top: auto;
-  color: var(--color-white);
-  background-color: var(--color-grey700);
+  color: #ffffff;
+  background-color: #25262B;
 
   &:focus {
     display: inline-block;
@@ -141,7 +141,7 @@ const BurgerButton = styled.button`
   z-index: 30;
   top: 0px;
   position: relative;
-  color: var(--color-white);
+  color: #ffffff;
   display: flex;
   background: transparent;
   border: none;
@@ -159,20 +159,20 @@ const BurgerContent = styled.div`
   width: 24px;
   top: 30px;
   height: 2px;
-  background: var(--color-white);
+  background: #ffffff;
   position: absolute;
   left: 0;
   ${props =>
     props.isToggledOn
       ? 'background: transparent'
-      : `background: var(--color-white)`};
+      : `background: #ffffff`};
   transition: all 250ms cubic-bezier(0.86, 0, 0.07, 1);
   ::before {
     content: '';
     top: -8px;
     width: 24px;
     height: 2px;
-    background: var(--color-white);
+    background: #ffffff;
     position: absolute;
     left: 0;
     ${props =>

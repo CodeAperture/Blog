@@ -7,7 +7,7 @@ const ContentBody = styled.div`
   line-height: 1.6;
 
   & > h2 {
-    color: var(--color-h2);
+    color: #3E4047;
     padding-top: 1rem;
     margin-top: 1rem;
     border-top: 1px solid #ececec;
@@ -22,8 +22,8 @@ const ContentBody = styled.div`
   }
 
   & a {
-    fill: var(--color-text);
-    box-shadow: 0 2px 0 0 var(--color-secondary);
+    fill: #1C1D20;
+    box-shadow: 0 2px 0 0 #ffdc4e;
 
     &:hover {
       filter: brightness(150%);
@@ -63,8 +63,8 @@ const ContentBody = styled.div`
 
   & > blockquote {
     box-sizing: border-box;
-    background-color: var(--color-secondaryContentBackground);
-    border-left: 5px solid var(--color-secondary);
+    background-color: #f7f7f7;
+    border-left: 5px solid #ffdc4e;
     margin: 30px 0px;
     padding: 5px 20px;
     border-radius: 0 8px 8px 0;
@@ -103,13 +103,13 @@ const ContentBody = styled.div`
   }
 
   & .gatsby-highlight-code-line {
-    background-color: var(--color-darkBlue);
+    background-color: #022a4b;
     display: block;
     margin-right: -1em;
     margin-left: -1em;
     padding-right: 1em;
     padding-left: 0.75em;
-    border-left: 0.25em solid var(--color-yellow);
+    border-left: 0.25em solid #ffdc4e;
   }
 
   & h1 > code.language-text,
@@ -123,7 +123,7 @@ const ContentBody = styled.div`
   & li > code.language-text,
   & em > code.language-text,
   & strong > code.language-text {
-    background: var(--color-beige);
+    background: #fff9d9;
     color: #222222cc;
     padding: 0 3px;
     font-size: 0.94em;
@@ -144,10 +144,10 @@ const ContentBody = styled.div`
     & th,
     & td {
       padding: 0.5em;
-      background-color: var(--color-secondaryContentBackground);
+      background-color: #f7f7f7;
     }
     & tr {
-      border-bottom: 2px solid var(--color-white);
+      border-bottom: 2px solid #ffffff;
     }
     & tbody tr:last-child {
       border-bottom: none;
@@ -160,7 +160,7 @@ const ArticleTitle = styled.h1`
   font-size: 3rem;
   text-align: center;
   margin-bottom: 20px;
-  color: var(--h1);
+  color: #3E4047;
 `
 
 class Content extends React.Component {

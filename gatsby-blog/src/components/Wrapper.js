@@ -9,11 +9,11 @@ const Wrapper = styled.main.attrs(props => ({
   width: 80%;
   max-width: 1080px;
   word-wrap: break-word;
-  background-color: var(--color-wrapperBackground);
+  background-color: #ECECED;
   margin: 0px auto 30px auto;
   top: 30px;
   padding: 50px;
-  box-shadow: 0 0 0 0, 0 6px 12px var(--color-wrapperShadow);
+  box-shadow: 0 0 0 0, 0 6px 12px #0000001a;
 
   @media (max-width: 1020px) {
     width: 100%;

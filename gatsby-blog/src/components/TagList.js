@@ -4,19 +4,19 @@ import styled from 'styled-components'
 
 const ListContainer = styled.div`
   display: inline;
-  color: var(--color-textSecondary);
+  color: #546c77;
 `
 
 const TagListItemLink = styled(Link)`
   text-transform: uppercase;
-  color: var(--color-textSecondary);
+  color: #546c77;
 
   &:not(:first-child) {
     margin-left: 0.3rem;
   }
 
   &:hover {
-    border-bottom: 1px dotted var(--color-textSecondary);
+    border-bottom: 1px dotted #546c77;
   }
   &:before {
     content: '#';
@@ -25,7 +25,7 @@ const TagListItemLink = styled(Link)`
 
 const TagListItem = styled.span`
   text-transform: uppercase;
-  color: var(--color-textSecondary);
+  color: #546c77;
   &:not(:first-child) {
     margin-left: 0.3rem;
   }

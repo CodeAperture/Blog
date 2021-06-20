@@ -21,7 +21,7 @@ const BioWrapper = styled.div`
     padding: 6px;
     z-index: 2;
     box-shadow: #ececec 0 0 0 1px;
-    background-color: var(--color-wrapperBackground);
+    background-color: #ECECED;
   }
 
   & .author-image .img {
@@ -48,7 +48,7 @@ const BioWrapper = styled.div`
 
 const BioText = styled(Text)`
   & a {
-    box-shadow: 0 2px 0 0 var(--color-secondary);
+    box-shadow: 0 2px 0 0 #ffdc4e;
   }
   & a:hover {
     filter: brightness(150%);
