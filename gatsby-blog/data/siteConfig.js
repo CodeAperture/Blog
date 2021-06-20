@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Bob Walker',
-  siteDescription: 'Random thoughts on CI/CD, the software industry and whatever else pops into my head.',
+  siteDescription: 'Musings on CI/CD, the software industry, and life.',
   authorName: 'Bob Walker',
   twitterUsername: '_bobjwalker_',
   authorAvatar: 'avatar.png', // file in content/images

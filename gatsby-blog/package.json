@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-morning-dew",
-  "version": "0.0.0-development",
-  "description": "A Gatsby theme/starter to build lightning-fast blog/websites",
+  "name": "bob-walker-blog",
+  "version": "1.0.0",
+  "description": "Personal Blog for Bob Walker",
   "keywords": [
     "blog",
     "gatsby",
@@ -9,16 +9,16 @@
     "gatsby-theme",
     "starter"
   ],
-  "homepage": "https://github.com/maxpou/gatsby-starter-morning-dew#readme",
+  "homepage": "https://github.com/CodeAperture/Blog",
   "bugs": {
-    "url": "https://github.com/maxpou/gatsby-starter-morning-dew/issues"
+    "url": "https://github.com/CodeAperture/Blog/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxpou/gatsby-starter-morning-dew.git"
+    "url": "https://github.com/CodeAperture/Blog.git"
   },
   "license": "MIT",
-  "author": "Maxence Poutord <maxence.poutord@gmail.com>",
+  "author": "Bob Walker",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",

@@ -132,7 +132,13 @@ const Footer = () => {
             <a className="footer-link" href="https://www.gatsbyjs.org">
               Gatsby
             </a>
-            .
+            
+          </p>
+          <p className="footer-item-text">
+            Based on{' '}
+            <a className="footer-link" href="https://www.gatsbyjs.com/starters/maxpou/gatsby-starter-morning-dew">
+              gatsby-starter-morning-dew
+            </a>
           </p>
         </div>
         {footerLinks.map((column, i) => {
