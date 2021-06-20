@@ -1,8 +1,6 @@
 import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import useSiteMetadata from '../hooks/use-site-config'
-import useSiteImages from '../hooks/use-site-images'
 import TagList from './TagList'
 import { ReadingTime, Bull } from './Commons'
 
@@ -45,14 +43,6 @@ const Preview = styled.article`
   }
 `
 
-const PreviewCover = styled.div`
-  width: auto;
-  height: 200px;
-  background: #c5d2d9 no-repeat 50%;
-  background-size: cover;
-  border-radius: 5px 5px 0 0;
-`
-
 const PreviewContent = styled.div`
   padding: 20px;
 
@@ -70,8 +60,6 @@ const PreviewContent = styled.div`
 const PrevNextPost = props => {
   const { previous, next } = props
   const articles = [previous, next].filter(i => i).map(item => ({ node: item }))
-  const { siteCover, defaultLang } = useSiteMetadata()
-  const { fluid } = useSiteImages(siteCover)
 
   return (
     <Fragment>
@@ -80,19 +68,13 @@ const PrevNextPost = props => {
           const { excerpt, timeToRead } = article.node
           const {
             tags,
-            cover,
             title,
             slug,
-            language,
           } = article.node.frontmatter
-          const heroImg = (cover && cover.publicURL) || fluid.src
 
           return (
             <Preview key={`prev-next-${i}`}>
               <Link to={`/${slug}`} aria-label={`View ${title} article`}>
-                <PreviewCover
-                  style={{ backgroundImage: `url("${heroImg}")` }}
-                />
                 <PreviewContent>
                   <header>
                     <h2>

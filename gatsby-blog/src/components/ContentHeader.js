@@ -5,7 +5,7 @@ import Time from './Time'
 import { Bull } from './Commons'
 
 const Header = styled.header`
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: var(--color-textSecondary);
   font-size: 0.9em;
 `

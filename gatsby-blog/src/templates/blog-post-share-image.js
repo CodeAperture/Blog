@@ -40,8 +40,7 @@ const Square = styled.div`
 const Preview = styled.div`
   width: ${props => props.width || 440}px;
   height: ${props => props.height || 220}px;
-  background-image: url('${props =>
-    props.hero || withPrefix(props.siteCover)}');
+  background-image: url('${props => props.hero}');
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -98,9 +97,8 @@ const BlogPostShareImage = props => {
   const post = props.data.post
   const { width, height } = props.pageContext
   const heroImg = post.frontmatter.cover && post.frontmatter.cover.publicURL
-  const { siteCover, authorAvatar, headerTitle } = useSiteMetadata()
+  const { authorAvatar, headerTitle } = useSiteMetadata()
   const { fixed } = useSiteImages(authorAvatar)
-  const siteCoverPath = useSiteImages(siteCover).fluid.src
 
   return (
     <Wrapper width={width} height={height}>
@@ -120,7 +118,6 @@ const BlogPostShareImage = props => {
         width={width}
         height={height}
         hero={heroImg}
-        siteCover={siteCoverPath}
       />
       <Square width={width} height={height} />
     </Wrapper>

@@ -9,7 +9,6 @@ const SEO = props => {
   const {
     siteTitle,
     siteUrl,
-    siteCover,
     siteDescription,
     twitterUsername,
     authorName,
@@ -21,7 +20,7 @@ const SEO = props => {
   const formatedSiteUrl = siteUrl.endsWith('/')
     ? siteUrl.substring(0, siteUrl.length - 1)
     : siteUrl
-  const imagePath = props.imageShare || props.cover || withPrefix(siteCover)
+  const imagePath = props.imageShare || props.cover
   const image = `${formatedSiteUrl}${imagePath}`
   const description = props.description || siteDescription
   const url = formatedSiteUrl + withPrefix(path)

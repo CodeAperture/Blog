@@ -8,8 +8,8 @@ const ContentBody = styled.div`
 
   & > h2 {
     color: var(--color-h2);
-    padding-top: 3rem;
-    margin-top: 3rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
     border-top: 1px solid #ececec;
   }
 
@@ -155,16 +155,24 @@ const ContentBody = styled.div`
   }
 `
 
+const ArticleTitle = styled.h1`
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--h1);
+`
+
 class Content extends React.Component {
   render() {
-    const { content, date, tags } = this.props
+    const { content, date, tags, title } = this.props
 
     return (
       <section>
+        <ArticleTitle>{title}</ArticleTitle>
         {(tags || date) && (
           <ContentHeader date={date} tags={tags} />
         )}
-
         <ContentBody>
           <MDXRenderer>{content}</MDXRenderer>
         </ContentBody>

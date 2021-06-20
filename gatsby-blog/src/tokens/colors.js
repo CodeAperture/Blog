@@ -62,6 +62,10 @@ export const COLORS = {
     light: colors.grey500,
     dark: colors.yellow,
   },
+  h1: {
+    light: colors.grey500,
+    dark: colors.yellow,
+  },
 }
 
 export const COLOR_MODE_KEY = 'color-mode'

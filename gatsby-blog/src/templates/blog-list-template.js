@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import Wrapper from '../components/Wrapper'
 import PostsList from '../components/PostsList'
 import Pagination from '../components/Pagination'
+import Hero from '../components/Hero'
 import SEO from '../components/SEO'
 
 class BlogList extends React.Component {
@@ -16,6 +17,7 @@ class BlogList extends React.Component {
     return (
       <Layout location={this.props.location}>
         <SEO />
+        <Hero title={title} subTitle={description} />
 
         <Wrapper>
           <PostsList posts={posts} />

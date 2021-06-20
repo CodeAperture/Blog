@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Bob Walker',
-  siteDescription: 'Musings on CI/CD, the software industry, and my hobbies.',
+  siteDescription: 'Random thoughts on CI/CD, the software industry and whatever else pops into my head.',
   authorName: 'Bob Walker',
   twitterUsername: 'DevOpsWalker',
   authorAvatar: 'avatar.png', // file in content/images
@@ -14,7 +14,6 @@ module.exports = {
   disqusSiteUrl: 'https://bobwalker.net/',
   // Prefixes all links. 
   pathPrefix: '/prefix', // Note: it must *not* have a trailing slash.
-  siteCover: 'cover.jpg', // file in content/images
   background_color: '#cccccc',
   theme_color: '#444444',
   display: 'standalone',
@@ -57,12 +56,12 @@ module.exports = {
         },
         {
           label: 'Website',
-          url: 'https://bobwalker.net',
+          url: 'https://bobjwalker.com',
           rel: 'external',
         },
         {
           label: 'Twitter',
-          url: 'https://twitter.com/DevOpsWalker',
+          url: 'https://twitter.com/_bobjwalker_',
           rel: 'external',
         },
       ],

@@ -6,7 +6,6 @@ import styled from 'styled-components'
 import useSiteMetadata from '../hooks/use-site-config'
 import { media } from '../tokens'
 import useSiteImages from '../hooks/use-site-images'
-import DarkToggle from './DarkToggle'
 
 const HeaderWrapper = styled.header`
   top: 0;
@@ -214,7 +213,6 @@ const MobileHeader = ({ headerLinks }) => {
         <MobilePanel>
           <MobileNav>
             <HeaderLinks headerLinks={headerLinks} />
-            <DarkToggle isExpanded={true} />
           </MobileNav>
         </MobilePanel>
       )}
@@ -245,7 +243,6 @@ const Header = () => {
         </HeaderLinkTitle>
         <HeaderLinksContainer>
           <HeaderLinks headerLinks={headerLinks} />
-          <DarkToggle />
         </HeaderLinksContainer>
         <MobileHeader headerLinks={headerLinks} />
       </HeaderNav>
