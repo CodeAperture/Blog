@@ -60,8 +60,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "styled-components": "^5.3.0",
-    "terser": "^5.7.0"
+    "styled-components": "^5.3.0"
   },
   "devDependencies": {
     "lighthousebot": "https://github.com/GoogleChromeLabs/lighthousebot",
